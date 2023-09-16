@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Load the model
-with open("C:/Users/jains/PycharmProjects/custumer_churn_prediction/naive_bayes_model.pkl", "rb") as model_file:
+with open("naive_bayes_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Create page header
